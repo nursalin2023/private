@@ -8,7 +8,8 @@ public class Main {
         student.setSurName(scanner.next());
         student.setAge(scanner.next());
         student.setPhonnumber(scanner.next());
-        System.out.println("NAME: " + student.sett()+ "\n"+"SUR NAME: " + student.getSurName()+"\n"+"AGE: "+student.getAge()+"\n"+"PHON NUMBER: "+ student.getPhonnumber());
+        student.sett();
+        System.out.println("NAME: " + student.getName()+ "\n"+"SUR NAME: " + student.getSurName()+"\n"+"AGE: "+student.getAge()+"\n"+"PHON NUMBER: "+ student.getPhonnumber());
 
     }
 }
